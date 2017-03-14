@@ -1,4 +1,12 @@
-　　baseurl: /myblog
+# Site settings
+title: Blog of Tech@Yunlaiwu.com
+header-img: img/home-bg.jpg
+email: sunlang@yunlaiwu.com
+copyright_name: yunlaiwu
+description: "Tech Team of Yunlaiwu.com!"
+baseurl: "/myblog"
+url: "https://langsun.github.io/myblog"
+
 
 # Build settings
 markdown: kramdown
@@ -6,3 +14,5 @@ highlighter: rouge
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
